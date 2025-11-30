@@ -11,6 +11,7 @@ import hs from "@/public/hs.png";
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;
+  subtitle?: string;
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
