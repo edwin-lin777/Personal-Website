@@ -2,12 +2,12 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import linkden from "@/public/linkedin (1).png";
 import github from "@/public/github (1).png";
 import hs from "@/public/hs.png";
 
-import { AuroraBackground } from "@/app/components/background";
+
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;

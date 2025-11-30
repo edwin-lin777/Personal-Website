@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React from "react";
+
 import { Timeline } from "@/components/ui/timeline";
-import ftmoverification from "@/public/passed-verification.jpeg";
-import ftmochallenge from "@/public/passed-challenge.jpeg";
+
 export function TimelineDemo() {
   const data = [
     {
@@ -21,18 +20,21 @@ export function TimelineDemo() {
             nearly three years of consistent trading, I'm thrilled to have
             passed the FTMO evaluation on my first attempt and am now an
             FTMO-funded trader.
-            <br></br><br></br>
+            <br></br>
+            <br></br>
             The purpose of these trading parameters are to test traders skills,
             consistency, and ability to manage risk.
-            
-            <br></br><br></br>
-            Even though passing the challenge only took 1 month, it took me almost 3 years (from Feburary of 2023) 
-            to learn the skills and techniques to be able to pass. I've dedicated years of my life to case studying,
-            tape reading, backtesting, and failing over and over again to get to where I am. I am so proud of myself that
-            I stayed disciplined, dedicated, and ignored what others were telling me. <br></br>
-            All of those 6 AM trading days, since I lived on the west coast, for the past three years were worth it.
-
-            
+            <br></br>
+            <br></br>
+            Even though passing the challenge only took 1 month, it took me
+            almost 3 years (from Feburary of 2023) to learn the skills and
+            techniques to be able to pass. I've dedicated years of my life to
+            case studying, tape reading, backtesting, and failing over and over
+            again to get to where I am. I am so proud of myself that I stayed
+            disciplined, dedicated, and ignored what others were telling me.{" "}
+            <br></br>
+            All of those 6 AM trading days, since I lived on the west coast, for
+            the past three years were worth it.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -57,7 +59,7 @@ export function TimelineDemo() {
     {
       key: "early-2023231",
       title: "November 2025",
-      subtitle:"MIT Climate and Energy Hacks",
+      subtitle: "MIT Climate and Energy Hacks",
       content: (
         <div key="22131">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -104,7 +106,7 @@ export function TimelineDemo() {
     {
       title: "October 2025",
       key: "Octoberewr",
-      subtitle:"Position Size Calculuator",
+      subtitle: "Position Size Calculuator",
       content: (
         <div key="3423432">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
@@ -257,7 +259,7 @@ export function TimelineDemo() {
         </div>
       ),
     },
-     {
+    {
       title: "April-August 2025",
       key: "early-cjamme;log",
       subtitle: "Manual Labourer",
@@ -413,7 +415,7 @@ export function TimelineDemo() {
         </div>
       ),
     },
- {
+    {
       title: "Feburary 2023",
       key: "early-cjamme;log",
       subtitle: "The Jounrey with Indices",
@@ -570,7 +572,6 @@ export function TimelineDemo() {
         </div>
       ),
     },
-    
   ];
   return (
     <div className="min-h-screen w-full">
