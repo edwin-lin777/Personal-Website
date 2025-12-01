@@ -7,11 +7,11 @@ import linkden from "@/public/linkedin (1).png";
 import github from "@/public/github (1).png";
 import hs from "@/public/hs.png";
 
-
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;
   subtitle?: string;
+  link?: string;
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
@@ -120,13 +120,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <div className="flex flex-col">
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-700 dark:text-neutral-500 ">
-                {item.title}
-                <br></br>
-              </h3>
-              <h2 className="hidden md:block text-sm md:pl-20 md:text-2xl font-bold text-neutral-500 dark:text-neutral-500">
-                {item.subtitle}
-              </h2>
+                <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-700 dark:text-neutral-500 ">
+                  {item.title}
+                  <br></br>
+                </h3>
+                <h2 className="hidden md:block text-sm md:pl-20 md:text-2xl font-bold text-neutral-500 dark:text-neutral-500">
+                  {item.subtitle}
+                </h2>
               </div>
             </div>
 

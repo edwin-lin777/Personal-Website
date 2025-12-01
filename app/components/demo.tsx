@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { Timeline } from "@/components/ui/timeline";
-
+import Link from "next/link";
 export function TimelineDemo() {
   const data = [
     {
@@ -60,40 +60,51 @@ export function TimelineDemo() {
       key: "early-2023231",
       title: "November 2025",
       subtitle: "MIT Climate and Energy Hacks",
+
       content: (
         <div key="22131">
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
+          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+            Developed a full-stack solution for Array Technologies at MIT Energy
+            and Climate Hacks, enabling optimization of CO2 emissions versus
+            shipping costs for importing HRC steel. We used Next.js as our
+            frontend with interactive dashboards and a Python backend. We send
+            data from the backend to the frontend with FastAPI and learned a lot
+            about fullstack throughout this project.
+            <br></br> <br></br>{" "}
+            <a
+              className="text-blue-500"
+              target="_blank"
+              href="https://github.com/rli8145/MITEC-Array-Technologies"
+              rel="noopener noreferrer"
+            >
+              Git Hub Repository
+            </a>
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
-          </p>
+
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/mit.jpg"
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="/app3.jpg"
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
+              src="/SemiFinal.jpg"
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
+              src="/photoofus.jpg"
               alt="cards template"
               width={500}
               height={500}
@@ -109,73 +120,34 @@ export function TimelineDemo() {
       subtitle: "Position Size Calculuator",
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
+          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+            Before I switched to trading on MT5, I used to trade on TradingView
+            and they always had a position calculator so I never had to worry
+            about it, however once I moved to MT5, I realized that I needed
+            something to calculate my positions. I tried searching for tools
+            online but they all either conerted the position sizes to lots,
+            contracts, or just wouldn't work when I wanted to go short. Thus, I
+            learned the basics of React by building a simple but effective and
+            visual appealing position calculuator.
+            <br></br> <br></br>
+            <a
+              className="text-blue-500"
+              target="_blank"
+              href="https://bs-liquidity.com"
+              rel="noopener noreferrer"
+            >
+              Try it for yourself
+            </a>
           </p>
-          <div className="mb-8">
-            <div
-              key="1"
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm"
-            >
-              ✅ Card grid component
-            </div>
-            <div
-              key="2"
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm"
-            >
-              ✅ Startup template Aceternity
-            </div>
-            <div
-              key="3"
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm"
-            >
-              ✅ Random file upload lol
-            </div>
-            <div
-              key="4"
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm"
-            >
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div
-              key="5"
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm"
-            >
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
+
+          <div className="grid gap-4">
             <Image
-              key="https://assets.aceternity.com/pro/hero-sections.png"
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              key="/Screenshot 2025-11-30 204402.png"
+              src="/Screenshot 2025-11-30 204402.png"
               alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              key="https://assets.aceternity.com/pro/hero-fdeafe"
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              key="https://assets.aceternity.com/pro/hero-faef23432"
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              key="https://assets.4234324234.com/pro/234324-faef23432"
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              width={750}
+              height={750}
+              className="rounded-lg object-cover h-20 w-88 md:h-44 md:w-195 lg:h-90 lg:w-400  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
         </div>
