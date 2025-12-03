@@ -161,7 +161,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         className="mt-35 flex sm:text-sm md:text-md flex-col lg:text-lg justify-center  pb-50"
       >
         <div>
-          <p className="text-left font-sans sm:text-md md:text-lg lg:text-3xl mb-5">
+          <p className="text-left sm:text-md font-sans  md:text-lg lg:text-3xl mb-5">
             My Favourite Trading Quote
           </p>
         </div>
