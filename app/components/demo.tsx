@@ -6,7 +6,7 @@ import Link from "next/link";
 import Video from "./Video";
 import { useState } from "react";
 export function TimelineDemo() {
-  const [openImage, setOpenImage] = useState(null);
+  const [openImage, setOpenImage] = useState("");
 
   const data = [
     {
@@ -53,7 +53,7 @@ export function TimelineDemo() {
             {openImage && (
               <div
                 className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
-                onClick={() => setOpenImage(null)}
+                onClick={() => setOpenImage("")}
               >
                 <Image
                   src="/passed-ftmo-challenge.jpeg"
@@ -75,7 +75,7 @@ export function TimelineDemo() {
             {openImage && (
               <div
                 className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
-                onClick={() => setOpenImage(null)}
+                onClick={() => setOpenImage("")}
               >
                 <Image
                   src={openImage}
@@ -128,7 +128,7 @@ export function TimelineDemo() {
             {openImage && (
               <div
                 className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
-                onClick={() => setOpenImage(null)}
+                onClick={() => setOpenImage("")}
               >
                 <Image
                   src={openImage}
@@ -150,7 +150,7 @@ export function TimelineDemo() {
             {openImage && (
               <div
                 className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
-                onClick={() => setOpenImage(null)}
+                onClick={() => setOpenImage("")}
               >
                 <Image
                   src={openImage}
