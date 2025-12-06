@@ -15,7 +15,7 @@ export function TimelineDemo() {
       subtitle: "FTMO Funded",
       content: (
         <div key="1232">
-          <p className="text-neutral-800 dark:text-neutral-200 text-lg font-sans font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm lg:text-lg font-sans font-normal mb-8">
             FTMO is a proprietary trading firm that funds traders who prove
             their skill through a two-stage evaluation. The first stage, the
             Challenge, requires a 10% profit target while avoiding a 10% overall
@@ -31,12 +31,14 @@ export function TimelineDemo() {
             consistency, and ability to manage risk.
             <br></br>
             <br></br>
+            <div className="sm:block hidden">
             Even though passing the challenge only took 1 month, it took me
             almost 3 years (from Feburary of 2023) to learn the skills and
             techniques to be able to pass. I've dedicated years of my life to
             case studying, tape reading, backtesting, and failing over and over
             again to get to where I am. I am so proud of myself that I stayed
             disciplined, dedicated, and ignored what others were telling me.{" "}
+            </div>
             <br></br>
             All of those 6 AM trading days, since I lived on the west coast, for
             the past three years were worth it.
@@ -98,7 +100,7 @@ export function TimelineDemo() {
 
       content: (
         <div key="22131">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm lg:text-lg font-normal mb-8">
             Developed a full-stack solution for Array Technologies at MIT Energy
             and Climate Hacks, enabling optimization of CO2 emissions versus
             shipping costs for importing HRC steel. We used Next.js as our
@@ -188,7 +190,7 @@ export function TimelineDemo() {
       subtitle: "Position Size Calculuator",
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm lg:text-lg font-normal mb-8">
             Before I switched to trading on MT5, I used to trade on TradingView
             and they always had a position calculator so I never had to worry
             about it. However once I moved to MT5, I realized that I needed
@@ -228,7 +230,7 @@ export function TimelineDemo() {
       subtitle: "UU Farm  Junior Manager",
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800   dark:text-neutral-200 text-sm lg:text-lg font-normal mb-8">
             In the summer between highschool and university, a newly farm opened
             in my city and they needed help hiring and managing staff. The
             manager put me in charge of interviewing and recruiting team members
@@ -287,7 +289,7 @@ export function TimelineDemo() {
       subtitle: "Manual Labourer",
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800  dark:text-neutral-200 text-sm lg:text-lg font-normal mb-8">
             Throughout my last few years of highschool, I did manual labour to
             try to make some side income so I could buy food for whenever I went
             out. <br></br> <br></br>
@@ -349,7 +351,7 @@ export function TimelineDemo() {
       subtitle: "Traction Inititave Director of Research",
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800   dark:text-neutral-200 text-sm lg:text-lg  font-normal mb-8">
             As the Director of Research for this registered non-profit, I manage
             a team of two associates and spearhead our efforts to address the
             environmental impact of tire pollution. Our primary focus is
@@ -407,7 +409,7 @@ export function TimelineDemo() {
       subtitle: "The Jounrey with Indices",
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800  dark:text-neutral-200 text-sm lg:text-lg font-normal mb-8">
             After being introduced to the financial markets through stocks and
             foreign exchange, I decided to dedicate my self for the foreseeable
             next 5-7 years and commit to trading Index CFDs on the New-York
@@ -472,7 +474,7 @@ export function TimelineDemo() {
        20 Minute Calisthenics short film`,
       content: (
         <div key="3423432">
-          <p className="text-neutral-800 tex-lg dark:text-neutral-200 md:text-lg font-normal mb-8">
+          <p className="text-neutral-800  dark:text-neutral-200 text-sm lg:text-lg   font-normal mb-8">
             At the age of 14, I stumbled upon the world of calisthenics and film
             making. Although these fields were from completely different worlds,
             I was passionate about both of them and wanted to combine them into
