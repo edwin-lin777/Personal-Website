@@ -483,7 +483,7 @@ export function TimelineDemo() {
             community. My friend and I spent over 10 months methodically and
             meticulously creating a 20 minute short film based on calisthenics,
             highlighting the importance of hard work, discipline and
-            consistency. Link can be sent upon request.
+            consistency. 
           </p>
 
           <div className="flex gap-4">
